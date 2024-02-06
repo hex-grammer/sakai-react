@@ -1,0 +1,9 @@
+{
+    "data": [
+        {
+            "label": "Menus",
+            "icon": "pi pi-list",
+            "to": "/pages/menus"
+        }
+    ]
+}

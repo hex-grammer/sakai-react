@@ -61,6 +61,14 @@ export interface AppMailReplyProps {
 }
 
 declare namespace Demo {
+    // MenuService
+    interface Menu {
+        label: string;
+        icon: string;
+        to: string;
+        items?: Menu[];
+    }
+
     interface Task {
         id?: number;
         name?: string;
