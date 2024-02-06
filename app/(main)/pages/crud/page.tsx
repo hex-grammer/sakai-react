@@ -49,7 +49,7 @@ const Crud = () => {
     const formatCurrency = (value: number) => {
         return value.toLocaleString('en-US', {
             style: 'currency',
-            currency: 'USD'
+            currency: 'IDR'
         });
     };
 
@@ -336,7 +336,6 @@ const Crud = () => {
                         globalFilter={globalFilter}
                         emptyMessage="No products found."
                         header={header}
-                        responsiveLayout="scroll"
                     >
                         <Column selectionMode="multiple" headerStyle={{ width: '4rem' }}></Column>
                         <Column field="code" header="Code" sortable body={codeBodyTemplate} headerStyle={{ minWidth: '15rem' }}></Column>
